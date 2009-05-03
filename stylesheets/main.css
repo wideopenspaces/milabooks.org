@@ -1,0 +1,398 @@
+* { text-shadow:rgba(255, 255, 255, .004) 0 0 1px; } /* Make Safari render fonts beautifully again! */
+body { 
+ font-family:Candara, Verdana, san-serif;
+ background-color:rgba(218,192,142,0.75);}
+h1 { font-size:3em; margin:0.25em auto; color:rgba(0,0,0,0.75); }
+h2 { font-size:1.33em; margin-bottom:0; }
+h3 { margin:0 auto; font-style:oblique; color:rgba(0,0,0,0.6); }
+
+h1, h2, h3 { text-shadow: rgba(0,0,0,0.25) -.0625em -.0625em 0, rgba(255,255,255,0.5) .0625em .0625em 0; }
+ul { list-style:none; text-indent:0;margin-left:0; padding-left:0;}
+p, li.review {
+  font-family:Candara, Cambria, Georgia, serif;
+  font-size:1.2em;
+  line-height:150%;
+  clear:left;
+}
+li.review {
+  width:100%;
+  float:left;
+  clear:both;
+}
+q {
+  display:block;
+  font-style:normal;
+  margin:1em 0 0 0;
+  
+  padding:.75em 1.25em;
+  -webkit-border-radius:0.5em;
+  background-color: rgba(255,255,255,0.5);
+    
+}
+
+/* CUSTOM TAGS */
+.shadowed, q, person, .samples img {
+  -webkit-box-shadow:rgba(0,0,0,0.25) 2px 2px 3px;
+}
+
+.person {
+  display:inline-block;
+  margin:1em auto;
+  padding:.4em 1.5em 0.4em 1.5em;
+  background-color: rgba(200,200,200,0.3);
+  -webkit-border-radius: 0.5em;
+  -webkit-box-shadow:rgba(0,0,0,0.25) .125em .125em .25em; 
+  text-shadow: rgba(0,0,0,0.25) -1px -1px 0, rgba(255,255,255,0.5) 1px 1px 0;
+  -webkit-transform:rotate(-2deg);
+  
+}
+
+.zag {
+  -webkit-transform:rotate(4deg);
+}
+
+.zig {
+  -webkit-transform:rotate(-4deg);
+}
+
+article {
+  display:block;
+}
+.person {
+  color:rgb(93,91,88);
+  font-size:0.8em;
+  line-height:1.6em;
+  display:inline-block;
+  font-family:Calibri, san-serif;
+  font-weight:bold;
+  margin:-1.2em 3em 0 2em;
+  padding:.4em 1.5em 0.4em 1.5em;
+  float:right;
+}
+
+li.tab-right .person {
+  float:right;
+  -webkit-transform:rotate(-2deg);
+  
+}
+
+
+
+
+article.book {
+  color:rgba(0,0,0,0.8);
+  margin:2em auto;
+  width:51em;
+}
+
+section {
+
+}
+
+section.left { float:left; clear:left; width:14.8em;}
+section.left h2 {font-size:1em;}
+
+section.right {
+  margin:1em 0;
+  width:33em; 
+  float:right;
+  clear:right;
+  line-height:1.8em;
+}
+
+section.title {
+  padding-bottom:0;
+  margin:0 0;
+}
+
+  section.title h1{
+    font-size:2.4em;
+  }
+  
+  section.title h3 {
+    font-size:1em;
+  }
+
+section.info {
+  margin:0 auto auto auto;
+}
+
+section.info div, section.praise ul {
+  font-size:0.75em;
+}
+
+section.cover {
+}
+
+section.cover img {
+  width:100%;
+}
+
+section.buy.left {
+  margin:1em auto;
+}
+
+section.wheretobuy ul {
+  display:block;
+  font-size:1.2em;
+}
+
+
+p.buy-links {
+  margin-top:0.5em;
+  text-align:center;
+}
+
+.buy-links button {
+  display:inline-block;
+  font-size:0.6em;
+  text-decoration:none;
+  margin:0.75em 0 0 0;
+  padding:.5em 0.75em;
+  -webkit-border-radius:0.33em;
+  width:90%;
+  
+  /*text-shadow:-1px -1px 1px rgba(0,0,0,0.33);*/
+  border:0 solid rgba(255,255,255,0.75);
+  /* border-color:rgba(255,255,255,0.33) rgba(0,0,0,0.33) rgba(0,0,0,0.33) rgba(255,255,255,0.33);*/
+  padding-left:3em;
+  
+}
+
+.buy-links button.icon {
+  background-repeat: no-repeat;
+  background-position: 0.75em 50%;
+  background-attachment:scroll;
+}
+
+.buy-links button.premium {
+  color:rgba(255,255,255,0.9);
+  background-color: rgba(92,67,7,0.5);
+  background-image: url('../images/premium-icon.png');
+}
+
+.buy-links button.standard { 
+  background-color: rgba(204,164,128,0.5);
+  background-image: url('../images/standard-icon.png');
+}
+
+.buy-links button.kindle { 
+  background-color: rgba(255,255,255,0.5);
+  background-image: url('../images/kindle-icon.png');
+}
+
+.buy-links button.premium:hover { background-color:rgba(92,67,7,0.8); }
+.buy-links button.standard:hover { background-color:rgba(204,164,128,0.8); }
+.buy-links button.kindle:hover { background-color:rgba(255,255,255,0.8); }
+
+.buy-links button:active {
+  -webkit-box-shadow:rgba(0,0,0,0.25) .125em .125em .25em;
+}
+
+button.google-checkout {
+  font-size:0.5em;
+  color:rgba(0,0,0,0.7);
+  -webkit-border-radius:0.5em;
+  border: 1px outset buttonface;
+  background-color:white;
+  padding:0.5em 0em;
+  
+}
+
+button.google-checkout strong { 
+  text-shadow: rgba(0,0,0,0.3) -.0625em -.0625em 0, rgba(0,0,0,0.1) .0625em .0625em 0; 
+}
+
+.samples { 
+  margin:0.5em auto;
+}
+
+.samples a {
+  display:block;
+  margin:1em 0 -1.5em 0;
+}
+.samples img {
+  -webkit-border-radius:0.75em;
+  border:0.75em solid rgba(255,255,255,0.67);
+  width:7em;
+  -webkit-transform:rotate(5deg);
+  -webkit-box-shadow:rgba(0,0,0,0.25) 4px 4px 5px;
+  
+}
+.samples img:first-child {
+}
+.samples a:last-child {
+  margin:1em 0 0 0;
+}
+
+.samples img.even {
+  -webkit-transform:rotate(-5deg);
+}
+
+.samples img:hover {
+  border-color:rgba(255,255,255,0.9);
+}
+.samples p {
+  margin:0 auto;
+  text-align:center;
+  padding-bottom:8em;
+  overflow:hidden;
+  
+}
+
+/* Start custom button CSS here
+---------------------------------------- */
+.btn {
+  background:none;
+  margin:0.5em 0 0.5em 0;
+  padding:0.2em 0;
+  border-width:0;
+  display:inline-block;
+  text-decoration:none;
+  overflow:visible;
+  
+  }
+* html button.btn {
+  padding-bottom:.0625em;
+  }
+/* Immediately below is a temporary hack to serve the 
+   following margin values only to Gecko browsers
+   Gecko browsers add an extra 3px of left/right 
+   padding to button elements which can't be overriden.
+   Thus, we use -3px of left/right margin to overcome this. */
+html:not([lang*=""]) button.btn {
+  margin:0 -0.2em;
+  }
+.btn span {
+  background-color: rgba(217,215,187,0.25);
+  z-index:1;
+  margin:0;
+  padding:.5em 0;
+  -webkit-border-radius: 0.5em;
+  -webkit-box-shadow:rgba(0,0,0,0.25) .125em .125em .25em;
+  
+/*  border-left:1px solid #ccc;
+  border-right:1px solid #bbb;*/
+  }
+* html .btn span {
+  padding-top:0;
+  }
+.btn span span {
+  background:none;
+  position:relative;
+  padding:.5em .4em;
+  border-width:0;
+  text-align:center;
+  border-top:.0625em solid rgba(255,255,255,0.3);
+  border-bottom:.0625em solid rgba(0,0,0,0.05);
+  }
+.btn b {
+  background-color: rgba(0,0,0,0.05);
+  position:absolute;
+  z-index:2;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+  width:100%;
+  height:40%;
+  border-top:0.2em solid rgba(0,0,0,0.05);
+  -webkit-border-bottom-left-radius:0.5em;
+  -webkit-border-bottom-right-radius:0.5em;
+  
+  }
+* html .btn b {
+  top:.0625em;
+  }
+.btn u {
+  display:inline-block;
+  text-decoration:none;
+  position:relative;
+  width:100%;
+  height:100%;
+  z-index:3;
+  text-shadow: rgba(0,0,0,0.25) -.0625em -.0625em 0, rgba(255,255,255,0.5) .0625em .0625em 0;
+  padding:0 .6em;
+  }
+
+/* pill classes only needed if using pill style buttons ( LEFT | CENTER | RIGHT ) */
+button.pill-l span {
+  border-right-width:0;
+  }
+button.pill-l span span {
+  border-right:1px solid #ccc;
+  }
+button.pill-c span {
+  border-right-style:none;
+  border-left-color:#fff;
+  }
+button.pill-c span span {
+  border-right:1px solid #ccc;
+  }
+button.pill-r span {
+  border-left-color:#fff;
+  }
+
+/* only needed if implementing separate hover state for buttons */
+/*.btn:hover span, .btn:hover span span {
+  cursor:pointer;
+  border-color:#9cf !important;
+  color:#000;
+  }*/
+
+/* use if one button should be the 'primary' button */
+.primary {
+  font-weight:bold;
+  color:#000;
+  }
+  
+
+  
+  .labeled {
+    display:inline-block;
+    padding:0 1.5em 0.4em 1.5em;
+    border: 1px outset rgba(255,255,255,0.4);
+    
+    -webkit-border-radius: 0.5em;
+    text-shadow: rgba(0,0,0,0.25) -1px -1px 0, rgba(255,255,255,0.5) 1px 1px 0;
+
+  }
+  
+  .nobg {
+    border-color:transparent;
+    background-color:transparent !important;    
+  }
+  
+  ul.labeled {
+    margin-top:-.9em;
+    padding:1.5em 1.5em 1.2em 1.5em;
+    background-color: rgba(255,255,255,0.4);
+  }
+  
+  .buy-links.labeled, .samples p {
+    display:block;
+    
+    margin-top:-.7em;
+    padding:1.7em .5em 1.2em .5em;
+    
+  }
+  
+  .left .labeled {
+    background-color: rgba(255,255,255,0.3);
+    border: 1px inset rgba(255,255,255,0.3);
+    
+  }
+  
+  .indented {
+    margin:0 1em;
+  }
+  
+  .outdented {
+    margin:auto -0.75em;
+  }
+  
+  .on-right {
+    display:inline-block; 
+    float:right;
+    margin:0 0.75em 0 0;
+    
+  }

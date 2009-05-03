@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml" />
+
+		<title>Mila Books</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="javascripts/facebox/facebox.css" type="text/css" media="screen" title="facebox" charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/facebox/facebox.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox({
+          loadingImage : 'javascripts/facebox/loading.gif',
+          closeImage   : 'javascripts/facebox/closelabel.gif'
+        }) 
+      })
+    </script>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+	</head>
+	
+	<body id="" onload="">
+    <div id="content">
+      <div id="books">
+        <article class="book">
+          <section class="cover left">
+            <img src="images/mila-printed-sample.png" />
+          </section>
+          <section class="title right">
+            <h1>Joyful to Hear</h1>
+            <h3>Powerful emotion expressed through peaceful reflection.</h3>
+          </section>
+           
+          <section class="info right">
+            <div class="about nobg">
+              <p>Fifteen years of poetry - joyful songs, sad songs, love songs - along with dozens of Mila&rsquo;s photographs taken over the past several years, grace the pages of <strong><nobr>Joyful to Hear</nobr></strong>, the author&rsquo;s first published collection of his craft.</p>
+              <p>His words express tales of great emotion through the lenses of compassion and awareness, concluding even the saddest of songs with the rays of hope that represent Mila&rsquo;s unique style.</p>        
+            </div>
+          </section>
+          
+          <section class="buy left">
+            <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/402467406884716" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm">
+            
+            <h2 class="btn zig outdented"><span><span><b> </b><u>buy it now!</u></span></span></h2>
+            <p class="buy-links labeled">
+              <input name="item_name_1" type="hidden" value="Joyful to Hear: a collection of songs"/>
+              <input name="item_description_1" type="hidden" value="Mila's first book of poetry and photography!"/>
+              <input name="item_quantity_1" type="hidden" value="1"/>
+              <input name="item_price_1" type="hidden" value="19.95"/>
+              <input name="item_currency_1" type="hidden" value="USD"/>
+              <input name="_charset_" type="hidden" value="utf-8"/>
+              <button class="google-checkout"><img alt="" src="https://checkout.google.com/buttons/buy.gif?merchant_id=402467406884716&amp;w=121&amp;h=44&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/>
+                <br /><strong>$19.95 (w. shipping!)</strong>
+              </button>
+            </p>
+            </form>
+          </section>
+
+          <section class="praise right">
+            <h2 class="btn zig outdented"><span><span><b> </b><u>praise</u></span></span></h2>
+            <ul class="labeled">
+              <li class="review">
+                <q url="http://www.com/128">I'm going to pee my pants!</q> <strong class="person reviewer">Antonette</strong></li>
+              <li class="review tab-right">
+                <q url="http://www.com/123">I'm so proud of my son, the author! I can't wait to get a copy of his new book of poetry!</q> <strong class="person reviewer">Linda "Mom" Dutil</strong></li>
+              <li class="review">
+                <q url="http://www.com/128">Get a haircut!</q> <strong class="person reviewer">Johnny Boy</strong></li>
+            </ul>
+          </section>
+
+          <section class="samples left">
+            <h2 class="btn zig outdented"><span><span><b> </b><u>sample pages</u></span></span></h2>
+            <p class="labeled">
+              <a href="images/full/skipping-stones.png" rel="facebox"><img src="images/samples/th-skipping-stones.jpg" /></a>
+              <a href="images/full/angel.png" rel="facebox"><img class="even" src="images/samples/th-an-angels-name.jpg"  /></a>
+              <a href="images/full/i-wish-for-you.png" rel="facebox"><img src="images/samples/th-i-wish-for-you.jpg" /></a>
+            </p>
+          </section>
+
+          
+          <div style="clear:both">&nbsp;</div>
+        </article>
+      </div>
+    </div>
+  </div>
+	
+	</body>
+</html>
