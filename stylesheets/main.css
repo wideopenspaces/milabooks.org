@@ -443,3 +443,9 @@ button.pill-r span {
   }
   
   cite { color: #633; text-decoration:underline; font-weight:bold;}
+  
+  p small {
+    font-size:0.8em;
+    line-height:100%;
+    
+  }
