@@ -152,7 +152,7 @@ div.progress, div.thermo {
   top:0;
   left:0;
   overflow:hidden;
-  width:8.45625em; /* Currently:82 -- 100% = 33em, 0.103125 each*/
+  width:8.765625em; /* Currently:85 -- 100% = 33em, 0.103125 each*/
   height:100%;
   -webkit-border-radius:0.5em;
   -moz-border-radius:0.5em;
@@ -160,7 +160,7 @@ div.progress, div.thermo {
 }
 
 div.thermo {
-  width:26%;
+  width:27%;
 }
 
 div.progress strong {
